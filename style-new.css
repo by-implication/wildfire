@@ -1,0 +1,198 @@
+body {
+	background: #54000d url("bg-gradient.png") repeat-x fixed 0 38px;
+	color: #fff;
+	font-size:14px;
+	font-family: "proxima-nova-1","proxima-nova-2","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+strong {
+	font-weight:700;
+}
+
+em {
+	font-style:italic;
+}
+
+header {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.796875) 0px -10px 15px 12px;
+	background-image: url(http://byimplication.com/images/menubar.png);
+	background-position: 50% 100%;
+	background-repeat: repeat-x;
+	font-size: 18px;
+	padding-top: 11px;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	font-family: "proxima-nova-condensed-1","proxima-nova-condensed-2",sans-serif;
+	height:33px;
+	font-weight:300;
+	text-transform:uppercase;
+}
+
+header a {
+	display:block;
+	color: #eee;
+	float:right;
+	margin-right:1px;
+	font-weight:600;
+	text-decoration:none;
+}
+
+header div {
+	width: 978px;
+	margin:0 auto;
+}
+
+div.contained {
+	width: 982px;
+	margin: 0 auto;
+}
+
+p {
+	margin-bottom:10px;
+}
+
+.logo {
+	margin-top:50px;
+	width:300px;
+	height:200px;
+	float:left;
+	margin-right:20px;
+}
+
+.first {
+	margin-top: 50px;
+	float:left;
+	width: 662px;
+	font-size:20px;
+	line-height:32px;
+	text-shadow:#430913 0px 2px;
+}
+
+.header {
+	padding:50px 0;
+}
+div.header h1 {
+	background: url(wildfire.png) no-repeat;
+	width:270px;
+	height:182px;
+	text-indent: -9999px;
+}
+
+div.header h2 {
+	text-indent: -9999px;
+}
+
+.content {
+	background-color:#430913;
+	width:882px;
+	padding:50px;
+	overflow:auto;
+}
+
+.intro {
+	font-size:18px;
+	line-height:24px;
+	margin-bottom:10px;
+}
+
+.intro p {
+	margin-bottom:30px;
+}
+
+h3 {
+	font-family: "proxima-nova-condensed-1","proxima-nova-condensed-2",sans-serif;
+	text-transform: uppercase;
+	font-size:20px;
+	margin-bottom:9px;
+	font-weight:700;
+}
+
+.requirements {
+	width: 389px;
+	float:left;
+	margin-right:34px;
+}
+
+.download {
+	width: 455px;
+	float:left;
+}
+
+.download div {
+	overflow:auto;
+}
+
+.download a.app {
+	color:#430913;
+	display:block;
+	width: 180px;
+	height: 48px;
+	background-color:#fff;
+	padding:12px;
+	float:left;
+	margin-right:10px;
+}
+
+.download a.app span {
+	text-transform:uppercase;
+	font-family: "proxima-nova-condensed-1","proxima-nova-condensed-2",sans-serif;
+	font-weight:700;
+}
+
+.download a.app:hover {
+	color:#fff;
+	display:block;
+	width: 178px;
+	height: 46px;
+	background-color:#430913;
+	padding:12px;
+	float:left;
+	margin-right:10px;
+	border: 1px #fff solid;
+}
+
+.videos a {
+	color:#fff;
+	display:block;
+	background-color:#430913;
+	padding:9px 13px;
+	float:left;
+	margin-right:10px;
+	border: 1px #fff solid;
+	margin-bottom:10px;
+}
+
+.videos a span {
+	text-transform:uppercase;
+	font-family: "proxima-nova-condensed-1","proxima-nova-condensed-2",sans-serif;
+	font-weight:700;
+}
+
+.videos em {
+	color:#430913;
+	display:block;
+	background-color:#fff;
+	padding:10px 14px;
+	float:left;
+	margin-right:10px;
+	font-family: "proxima-nova-condensed-1","proxima-nova-condensed-2",sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	margin-bottom: 10px;
+	font-style:normal;
+}
+
+.extra {
+	padding:30px 50px;
+}
+
+.extra a {
+	color:#fff;
+	text-shadow:#430913 0px 2px;
+	border-bottom:1px #fff dotted;
+}

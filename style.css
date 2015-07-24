@@ -1,0 +1,138 @@
+/* css reset */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, hr,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul {
+	list-style-type:none;
+}
+
+/* start */
+
+body {
+	background: #e6e6e6 url(bodybg.png) repeat-x top;
+	padding:0;
+	margin:0;
+}
+
+/*header */
+
+#header {
+	position: relative;
+	width:815px;
+	height:110px;
+	background: #b5b5b5 url(topbar.png) no-repeat top center;
+	margin:0 auto 0 auto;
+	padding: 105px 40px 0px 40px;
+}
+
+#header span {
+	display:block;
+	text-indent:-9999px;
+}
+
+#header h1 {
+	font: normal 19px Helvetica, Arial, sans-serif;
+	color:#333;
+	margin-bottom:7px;
+}
+
+#header h1 span {
+	color:#808080;
+	display:inline;
+	text-indent:0px;
+}
+
+#header p {
+	color:#656565;
+	font: 15px/19px Helvetica, Arial, sans-serif;
+	width: 349px;
+}
+
+#header img {
+	position: absolute;
+	top:125px;
+	left:580px;
+}
+
+/* content */
+
+#content {
+	width: 890px;
+	margin:0 auto;
+	padding-top:5px;
+	font: 12px/19px Helvetica, Arial, sans-serif;
+}
+
+.download {
+	position:relative;
+	top:25px;
+	left:35px;
+	display:block;
+	text-indent:-9999px;
+	width:129px;
+	height:34px;
+	background: url("download.png");
+	float:left;
+}
+
+.video {
+	position:relative;
+	top:-9px;
+	left:200px;
+	display:block;
+	text-indent:-9999px;
+	width:96px;
+	height:34px;
+	background: url("video.png");
+	clear:left;
+	margin-bottom:35px;
+}
+
+#content img {
+	margin-bottom:40px;
+}
+
+#content p {
+	color:#4d4d4d;
+	width:512px;
+	margin-left:35px;
+	margin-bottom:20px;
+}
+
+#blurb {
+	float:left;
+}
+
+#sysreqs {
+	color:#888;
+	float:right;
+	width:240px;
+	margin-right:33px;
+}
+
+#footer {
+	font: 10.5px/14px Helvetica, Arial, sans-serif;
+	color:#999;
+	padding-top:40px;
+	margin-left:35px;
+	padding-bottom:50px;
+	clear:both;
+}
+
+
